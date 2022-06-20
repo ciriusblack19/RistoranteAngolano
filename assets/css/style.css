@@ -80,7 +80,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('./assets/img/sfondo.jpg');
+    background: url(/assets/img/sfondo.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -260,7 +260,7 @@ section {
 /* ============================== Testimonianze ============================== */
 
 .testimonials {
-    background: url('./assets/img/sfondo2.jpg');
+    background: url(/assets/img/sfondo2.jpg);
     background-size: cover;
 }
 
@@ -326,7 +326,7 @@ section {
 /* ============================== Contatti ============================== */
 
 .contact {
-    background: url('./assets/img/sfondo3.jpg');
+    background: url(/assets/img/sfondo3.jpg);
     background-size: cover;
 }
 
@@ -431,14 +431,14 @@ section {
         position: relative;
         width: 40px;
         height: 40px;
-        background: url('./assets/img/menu.png');
+        background: url(/assets/img/menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
     }
     .menuToggle.active {
-        background: url('./assets/img/close.png');
+        background: url(/assets/img/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
